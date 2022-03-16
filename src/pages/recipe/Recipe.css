@@ -20,10 +20,18 @@
 .recipe li::after {
   content: ",";
 }
-.recipe li:last-child::after {
+.recipe li:last-child::after {  
   content: ".";
 }
 .method {
   text-align: left;
   line-height: 1.5em;
+}
+.recipe.dark {
+  background: #555;
+  color: #e4e4e4;
+}
+.recipe.dark h2,
+.recipe.dark li {
+  color: #e4e4e4;
 }
